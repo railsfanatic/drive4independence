@@ -6,6 +6,5 @@ Feature: Access the site
 	Scenario: view home page
 		Given I am not logged in
 		When I go to the homepage
-		Then I should see "Welcome"
-		And I should see "Welcome to My Site"
+		Then I should see "drive"
 		
